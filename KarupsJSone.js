@@ -1,3 +1,5 @@
+//Need to follow coding standards
+
 alert("Hellow");
 let js1="Amazing";
 if(js1=="Amazing")
