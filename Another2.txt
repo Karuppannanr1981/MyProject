@@ -8,3 +8,6 @@ const car = {
 // Display Data from the Object:
 //document.getElementById("demo").innerHTML = "The car type is " + car.type;
 //document.getElementById("KarupsDemo").innerHTML="Our car color is"+ car.color;
+
+
+This was corrected by Manager/lead
