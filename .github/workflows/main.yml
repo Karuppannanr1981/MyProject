@@ -1,0 +1,10 @@
+name: My First Action
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print message
+        run: echo "GitHub Actions is running successfully 🚀"
