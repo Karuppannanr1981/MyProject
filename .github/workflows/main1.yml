@@ -1,0 +1,17 @@
+name: Clone ORBIS Project
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  clone-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout ORBIS repository
+        uses: actions/checkout@v4
+
+      - name: Show repository files
+        run: ls -la
