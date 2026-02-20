@@ -1,4 +1,4 @@
-//Need to follow coding standards
+//Need to follow coding stan
 
 alert("Hellow");
 let js1="Amazing";
