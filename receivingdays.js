@@ -12,7 +12,9 @@ const receivesDaily= function(dailyHrs){
 	let mostWorkedhrs;
 	let noOfDaysWorked=0;
 	let fullTime;
-	for(let i=0; i<dailyHrs.length ; i++)
+	let i=0
+	//for(let i=0; i<dailyHrs.length ; i++)
+	for (i of dailyHrs) 
 	{
 		// total hrs worked
 		totalHrs=totalHrs+dailyHrs[i];
