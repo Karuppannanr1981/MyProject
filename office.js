@@ -5,4 +5,6 @@ function fun(a){
 	if(a>2) //t, t , t f
 		fun(a); //5 4 3
 }
-fun(7);
+fun(100);
+fun(101);
+fun(102);
